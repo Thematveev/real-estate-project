@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto';
+}
+
+
+/* global wrapper */
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+}
+
+/* header section */
+
+.header {
+    padding: 65px 0 205px 0;
+    background-image: url("../images/header-background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.logo-text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* search button */
+
+.header-search {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0.6;
+}
+
+.search-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.header-links {
+    display: flex;
+    gap: 35px;
+
+}
+
+.header-link, .header-button {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* offer section */
+
+.header-offer {
+    max-width: 747px;
+    margin: auto;
+}
+
+.section-label {
+    display: block;
+    padding: 5px 0;
+    background-color: #FF6633;
+    font-weight: 900;
+    color: #FFFFFF;
+    width: 106px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 65px;
+
+}
+
+.header-title {
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+/* header contacts */
+
+.header-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.header-action {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+    border-radius: 30px;
+    display: block;
+    padding: 15px 35px;
+    width: 142px;
+    box-sizing: border-box;
+
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B7A99;
+    text-decoration: none;
+    margin: auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+    bottom: -30px;
+}
