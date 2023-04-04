@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    background-color: #F7F8FA;
 }
 
 
@@ -145,4 +146,85 @@ body {
     left: 0;
     position: absolute;
     bottom: -30px;
+}
+
+
+/* story section */
+
+.story {
+    padding-top: 120px;
+    position: relative;
+    
+}
+
+.story::before {
+    content: 'our story';
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002881;
+    opacity: 0.03;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -999;
+
+}
+
+.story-label {
+    color: #29CC39;
+    background: rgba(41, 204, 57, 0.1);
+}
+
+.story-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: #4D5E80;
+    margin-bottom: 65px;
+}
+
+.story-content {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D8FB3;
+    max-width: 710px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.story-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-card {
+    background-color: #FFFFFF;
+    width: 350px;
+    text-align: center;
+    padding: 35px 0;
+    box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+    border-radius: 10px;
+}
+
+.story-card-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    color: #4D5E80;
+    margin-bottom: 10px;
+}
+
+.story-card-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ADB8CC;
 }

@@ -2,6 +2,10 @@
     .wrapper {
         max-width: 960px;
     }
+
+    .story-card {
+        width: 300px;
+    }
 }
 
 @media (max-width: 960px){
@@ -11,6 +15,14 @@
 
     .header-search {
         display: none;
+    }
+
+    .story-card {
+        width: 230px;
+    }
+
+    .story::before {
+        font-size: 110px;
     }
 }
 
@@ -50,6 +62,24 @@
     .header-contact {
         flex-direction: column;
         gap: 15px;
+    }
+
+    /* story */
+
+    .story-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .story-card {
+        width: 100%;
+    }
+
+    .story::before {
+        font-size: 85px;
+        line-height: 95px;
+        margin-top: 40px;
     }
 
 }
