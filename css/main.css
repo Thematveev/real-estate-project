@@ -151,14 +151,13 @@ body {
 
 /* story section */
 
-.story {
+.section {
     padding-top: 120px;
     position: relative;
     
 }
 
-.story::before {
-    content: 'our story';
+.section::before {
     font-weight: 900;
     font-size: 150px;
     line-height: 220px;
@@ -174,12 +173,16 @@ body {
 
 }
 
+.story::before{
+    content: 'our story';
+}
+
 .story-label {
     color: #29CC39;
     background: rgba(41, 204, 57, 0.1);
 }
 
-.story-title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 60px;
@@ -188,7 +191,7 @@ body {
     margin-bottom: 65px;
 }
 
-.story-content {
+.section-content {
     font-weight: 500;
     font-size: 14px;
     line-height: 30px;
@@ -228,3 +231,43 @@ body {
     line-height: 30px;
     color: #ADB8CC;
 }
+
+/* services */
+
+.services-label {
+    color: #3361FF;
+    background: rgba(51, 97, 255, 0.1);
+}
+
+.services::before {
+    content: 'services';
+}
+
+
+.services-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-icon {
+    background-color: #ffffff;
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.services-item-text {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    color: #4D5E80;
+
+}
+
+
+ 
