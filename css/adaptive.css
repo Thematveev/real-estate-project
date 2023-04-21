@@ -6,6 +6,14 @@
     .story-card {
         width: 300px;
     }
+
+    .deals-card:nth-child(7){
+        margin-top: 0
+    }
+
+    .deals-container {
+        height: 2200px;
+    }
 }
 
 @media (max-width: 960px){
@@ -24,6 +32,8 @@
     .section::before {
         font-size: 110px;
     }
+
+    
 }
 
 @media (max-width: 760px){
@@ -98,6 +108,18 @@
         font-size: 65px;
     }
 
+    .deals-container {
+        height: max-content
+    }
+
+    .insta-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .feedback-comments {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px){
@@ -117,6 +139,12 @@
 
     .header {
         padding-bottom: 65px;
+    }
+
+    .deals-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
     }
 }
 
