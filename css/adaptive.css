@@ -120,6 +120,11 @@
     .feedback-comments {
         flex-direction: column;
     }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 480px){
@@ -145,6 +150,14 @@
         flex-direction: column;
         align-items: center;
         gap: 5px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .input-long {
+        grid-column: 1 / 2;
     }
 }
 
